@@ -1,12 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 import MyComponentWithFilters from './examples/with-filters';
+import MyModal from './examples/modal';
+
+import '@wordpress/components/build-style/style.css';
 
 const App = () => (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <div>
-      <Route path="/with-filters" component={MyComponentWithFilters} />
+      <Route path='/modal' component={MyModal} />
+      <Route path='/with-filters' component={MyComponentWithFilters} />
     </div>
   </Router>
 );
