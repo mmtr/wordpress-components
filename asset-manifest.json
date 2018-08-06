@@ -1,11 +1,11 @@
 {
-  "runtime~main.js": "https://mmtr.github.io/wordpress-components/static/js/runtime~main.76d6b020.js",
-  "runtime~main.js.map": "https://mmtr.github.io/wordpress-components/static/js/runtime~main.76d6b020.js.map",
-  "vendors.css": "https://mmtr.github.io/wordpress-components/static/css/vendors.727ad1d5.chunk.css",
-  "vendors.js": "https://mmtr.github.io/wordpress-components/static/js/vendors.05c1288b.chunk.js",
-  "vendors.js.map": "https://mmtr.github.io/wordpress-components/static/js/vendors.05c1288b.chunk.js.map",
-  "main.css": "https://mmtr.github.io/wordpress-components/static/css/main.69b92482.chunk.css",
-  "main.js": "https://mmtr.github.io/wordpress-components/static/js/main.7310c4b6.chunk.js",
-  "main.js.map": "https://mmtr.github.io/wordpress-components/static/js/main.7310c4b6.chunk.js.map",
-  "index.html": "https://mmtr.github.io/wordpress-components/index.html"
+  "runtime~main.js": "/wordpress-components/static/js/runtime~main.dacfd84e.js",
+  "runtime~main.js.map": "/wordpress-components/static/js/runtime~main.dacfd84e.js.map",
+  "vendors.css": "/wordpress-components/static/css/vendors.727ad1d5.chunk.css",
+  "vendors.js": "/wordpress-components/static/js/vendors.05c1288b.chunk.js",
+  "vendors.js.map": "/wordpress-components/static/js/vendors.05c1288b.chunk.js.map",
+  "main.css": "/wordpress-components/static/css/main.69b92482.chunk.css",
+  "main.js": "/wordpress-components/static/js/main.c718e1fc.chunk.js",
+  "main.js.map": "/wordpress-components/static/js/main.c718e1fc.chunk.js.map",
+  "index.html": "/wordpress-components/index.html"
 }
