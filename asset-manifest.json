@@ -1,10 +1,10 @@
 {
-  "runtime~main.js": "/static/js/runtime~main.41117e05.js",
-  "runtime~main.js.map": "/static/js/runtime~main.41117e05.js.map",
-  "vendors.js": "/static/js/vendors.703a4845.chunk.js",
-  "vendors.js.map": "/static/js/vendors.703a4845.chunk.js.map",
-  "main.css": "/static/css/main.147ffbe2.chunk.css",
-  "main.js": "/static/js/main.0266d96b.chunk.js",
-  "main.js.map": "/static/js/main.0266d96b.chunk.js.map",
-  "index.html": "/index.html"
+  "runtime~main.js": "/wordpress-components/static/js/runtime~main.dacfd84e.js",
+  "runtime~main.js.map": "/wordpress-components/static/js/runtime~main.dacfd84e.js.map",
+  "vendors.js": "/wordpress-components/static/js/vendors.703a4845.chunk.js",
+  "vendors.js.map": "/wordpress-components/static/js/vendors.703a4845.chunk.js.map",
+  "main.css": "/wordpress-components/static/css/main.147ffbe2.chunk.css",
+  "main.js": "/wordpress-components/static/js/main.b4056479.chunk.js",
+  "main.js.map": "/wordpress-components/static/js/main.b4056479.chunk.js.map",
+  "index.html": "/wordpress-components/index.html"
 }
