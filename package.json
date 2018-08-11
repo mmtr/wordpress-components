@@ -4,9 +4,10 @@
   "private": true,
   "homepage": "https://mmtr.github.io/wordpress-components",
   "dependencies": {
-    "@wordpress/components": "^1.1.1",
+    "@wordpress/components": "^2.0.0",
     "@wordpress/compose": "^1.0.2",
-    "@wordpress/hooks": "^1.3.2",
+    "@wordpress/date": "^1.0.3",
+    "@wordpress/hooks": "^1.3.3",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-router-dom": "^4.3.1",

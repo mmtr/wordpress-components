@@ -1159,6 +1159,13 @@
     "@babel/plugin-transform-react-jsx-self" "7.0.0-beta.56"
     "@babel/plugin-transform-react-jsx-source" "7.0.0-beta.56"
 
+"@babel/runtime-corejs2@7.0.0-beta.56":
+  version "7.0.0-beta.56"
+  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs2/-/runtime-corejs2-7.0.0-beta.56.tgz#6df5fbaa78e4bfdc22dfc5b36493ef238d55a027"
+  dependencies:
+    core-js "^2.5.7"
+    regenerator-runtime "^0.12.0"
+
 "@babel/runtime@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.0.0-beta.46.tgz#466a9c0498f6d12d054a185981eef742d59d4871"
@@ -1405,37 +1412,37 @@
     text-table "^0.2.0"
     webpack-log "^1.1.2"
 
-"@wordpress/a11y@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@wordpress/a11y/-/a11y-1.1.2.tgz#0439d14df9fbcf05dcd76c51207ff50de5dd1fae"
+"@wordpress/a11y@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@wordpress/a11y/-/a11y-1.1.3.tgz#8af0d5b8788798edf43a6cb3d271164cc6fc8869"
   dependencies:
-    "@babel/runtime" "^7.0.0-beta.52"
-    "@wordpress/dom-ready" "^1.1.2"
+    "@babel/runtime-corejs2" "7.0.0-beta.56"
+    "@wordpress/dom-ready" "^1.2.0"
 
-"@wordpress/api-fetch@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/api-fetch/-/api-fetch-1.1.0.tgz#7abc23e76749e4ebd9f91a66d0f64920bac20049"
-  dependencies:
-    "@babel/runtime" "^7.0.0-beta.52"
-    "@wordpress/hooks" "^1.3.2"
-    "@wordpress/i18n" "^1.2.2"
-
-"@wordpress/components@^1.1.1":
+"@wordpress/api-fetch@^1.1.1":
   version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@wordpress/components/-/components-1.1.1.tgz#f6da8477a722c9c6e70c3cb3dc94371de98ef007"
+  resolved "https://registry.yarnpkg.com/@wordpress/api-fetch/-/api-fetch-1.1.1.tgz#d01afd05dd836d168f6ab559010d37cccb940b35"
   dependencies:
-    "@babel/runtime" "^7.0.0-beta.52"
-    "@wordpress/a11y" "^1.1.2"
-    "@wordpress/api-fetch" "^1.1.0"
-    "@wordpress/compose" "^1.0.2"
-    "@wordpress/deprecated" "^1.0.2"
-    "@wordpress/dom" "^1.0.2"
-    "@wordpress/element" "^1.0.2"
-    "@wordpress/hooks" "^1.3.2"
-    "@wordpress/i18n" "^1.2.2"
-    "@wordpress/is-shallow-equal" "^1.1.2"
-    "@wordpress/keycodes" "^1.0.2"
-    "@wordpress/url" "^1.2.2"
+    "@babel/runtime-corejs2" "7.0.0-beta.56"
+    "@wordpress/hooks" "^1.3.3"
+    "@wordpress/i18n" "^1.2.3"
+
+"@wordpress/components@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/components/-/components-2.0.0.tgz#79c357c7bb715e5841de27c7511da9bc2a207856"
+  dependencies:
+    "@babel/runtime-corejs2" "7.0.0-beta.56"
+    "@wordpress/a11y" "^1.1.3"
+    "@wordpress/api-fetch" "^1.1.1"
+    "@wordpress/compose" "^1.0.3"
+    "@wordpress/deprecated" "^1.0.3"
+    "@wordpress/dom" "^1.0.3"
+    "@wordpress/element" "^1.0.3"
+    "@wordpress/hooks" "^1.3.3"
+    "@wordpress/i18n" "^1.2.3"
+    "@wordpress/is-shallow-equal" "^1.1.3"
+    "@wordpress/keycodes" "^1.0.3"
+    "@wordpress/url" "^1.2.3"
     classnames "^2.2.5"
     clipboard "^1.7.1"
     dom-scroll-into-view "^1.2.1"
@@ -1459,23 +1466,46 @@
     "@wordpress/is-shallow-equal" "^1.1.2"
     lodash "^4.17.10"
 
+"@wordpress/compose@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wordpress/compose/-/compose-1.0.3.tgz#83b47def0ca6c107c79ee5d2d31b2a0afc3b9b14"
+  dependencies:
+    "@babel/runtime-corejs2" "7.0.0-beta.56"
+    "@wordpress/element" "^1.0.3"
+    "@wordpress/is-shallow-equal" "^1.1.3"
+    lodash "^4.17.10"
+
+"@wordpress/date@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wordpress/date/-/date-1.0.3.tgz#84f129a8317238af5bcf0de43a152b8f003bd7a4"
+  dependencies:
+    "@babel/runtime-corejs2" "7.0.0-beta.56"
+    moment "^2.22.1"
+    moment-timezone "^0.5.16"
+
 "@wordpress/deprecated@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@wordpress/deprecated/-/deprecated-1.0.2.tgz#ac69168d55b790d797946ef2dfd2eeda13bf1c56"
   dependencies:
     "@babel/runtime" "^7.0.0-beta.52"
 
-"@wordpress/dom-ready@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@wordpress/dom-ready/-/dom-ready-1.1.2.tgz#f39bfb7a9efe706d83055982e3edfafb9de966aa"
+"@wordpress/deprecated@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wordpress/deprecated/-/deprecated-1.0.3.tgz#eceb772420a7ae9860934f5fe8f794c7263e56ba"
   dependencies:
-    "@babel/runtime" "^7.0.0-beta.52"
+    "@babel/runtime-corejs2" "7.0.0-beta.56"
 
-"@wordpress/dom@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wordpress/dom/-/dom-1.0.2.tgz#47a87253c3f8775a75c76295a11cec088c749440"
+"@wordpress/dom-ready@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/dom-ready/-/dom-ready-1.2.0.tgz#d95877eb6f929532ec971983b55e731babb78d9c"
   dependencies:
-    "@babel/runtime" "^7.0.0-beta.52"
+    "@babel/runtime-corejs2" "7.0.0-beta.56"
+
+"@wordpress/dom@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wordpress/dom/-/dom-1.0.3.tgz#eb1d9dadb81720fd3c86c4a9c6b0333e455a472b"
+  dependencies:
+    "@babel/runtime-corejs2" "7.0.0-beta.56"
     element-closest "^2.0.2"
     lodash "^4.17.10"
 
@@ -1490,17 +1520,26 @@
     react "^16.4.1"
     react-dom "^16.4.1"
 
-"@wordpress/hooks@^1.3.2":
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/@wordpress/hooks/-/hooks-1.3.2.tgz#389f6a35adcd0b1ad6f85b2b6642ce1280165cad"
+"@wordpress/element@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wordpress/element/-/element-1.0.3.tgz#a69a334871d63a3a0a3f87f81abbecbeb2d45b7f"
   dependencies:
-    "@babel/runtime" "^7.0.0-beta.52"
+    "@babel/runtime-corejs2" "7.0.0-beta.56"
+    lodash "^4.17.10"
+    react "^16.4.1"
+    react-dom "^16.4.1"
 
-"@wordpress/i18n@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@wordpress/i18n/-/i18n-1.2.2.tgz#1662045fe68cef8ebdda1657724b72ba9238f355"
+"@wordpress/hooks@^1.3.3":
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@wordpress/hooks/-/hooks-1.3.3.tgz#63558e39e5ff2addb667c2ade02de95890d25972"
   dependencies:
-    "@babel/runtime" "^7.0.0-beta.52"
+    "@babel/runtime-corejs2" "7.0.0-beta.56"
+
+"@wordpress/i18n@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@wordpress/i18n/-/i18n-1.2.3.tgz#b6607d0823828a858a648bcc5e3884ec9186820a"
+  dependencies:
+    "@babel/runtime-corejs2" "7.0.0-beta.56"
     gettext-parser "^1.3.1"
     jed "^1.1.1"
     lodash "^4.17.10"
@@ -1512,18 +1551,24 @@
   dependencies:
     "@babel/runtime" "^7.0.0-beta.52"
 
-"@wordpress/keycodes@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wordpress/keycodes/-/keycodes-1.0.2.tgz#caa5fda76209b24bc54e8591a26b7b83fb9b4a6f"
+"@wordpress/is-shallow-equal@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@wordpress/is-shallow-equal/-/is-shallow-equal-1.1.3.tgz#41fbbcdf96c6c0abf1848abcc5f425077172e8a1"
   dependencies:
-    "@babel/runtime" "^7.0.0-beta.52"
+    "@babel/runtime-corejs2" "7.0.0-beta.56"
+
+"@wordpress/keycodes@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wordpress/keycodes/-/keycodes-1.0.3.tgz#1f6041c744c959b0ef4e268c70475489782a0e67"
+  dependencies:
+    "@babel/runtime-corejs2" "7.0.0-beta.56"
     lodash "^4.17.10"
 
-"@wordpress/url@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@wordpress/url/-/url-1.2.2.tgz#945f83c46b77476cbe5d48e3952d1b882f60506d"
+"@wordpress/url@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@wordpress/url/-/url-1.2.3.tgz#9c01e52b8b86d87b5cc05b7bcd7e11c9201753f0"
   dependencies:
-    "@babel/runtime" "^7.0.0-beta.52"
+    "@babel/runtime-corejs2" "7.0.0-beta.56"
     qs "^6.5.2s"
 
 abab@^1.0.4:
@@ -2818,7 +2863,7 @@ core-js@^1.0.0:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
 
-core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.3:
+core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.3, core-js@^2.5.7:
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
 
@@ -6131,7 +6176,13 @@ mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@
   dependencies:
     minimist "0.0.8"
 
-moment@^2.22.1:
+moment-timezone@^0.5.16:
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.21.tgz#3cba247d84492174dbf71de2a9848fa13207b845"
+  dependencies:
+    moment ">= 2.9.0"
+
+"moment@>= 2.9.0", moment@^2.22.1:
   version "2.22.2"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
 
