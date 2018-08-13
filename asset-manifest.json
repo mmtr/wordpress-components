@@ -1,11 +1,11 @@
 {
   "runtime~main.js": "/wordpress-components/static/js/runtime~main.dacfd84e.js",
   "runtime~main.js.map": "/wordpress-components/static/js/runtime~main.dacfd84e.js.map",
-  "vendors.css": "/wordpress-components/static/css/vendors.8dee8362.chunk.css",
-  "vendors.js": "/wordpress-components/static/js/vendors.c6668678.chunk.js",
-  "vendors.js.map": "/wordpress-components/static/js/vendors.c6668678.chunk.js.map",
-  "main.css": "/wordpress-components/static/css/main.55b40ee9.chunk.css",
-  "main.js": "/wordpress-components/static/js/main.2df09c96.chunk.js",
-  "main.js.map": "/wordpress-components/static/js/main.2df09c96.chunk.js.map",
+  "vendors.css": "/wordpress-components/static/css/vendors.cb6ba48c.chunk.css",
+  "vendors.js": "/wordpress-components/static/js/vendors.cef77cf5.chunk.js",
+  "vendors.js.map": "/wordpress-components/static/js/vendors.cef77cf5.chunk.js.map",
+  "main.css": "/wordpress-components/static/css/main.0aab950b.chunk.css",
+  "main.js": "/wordpress-components/static/js/main.7eb197ba.chunk.js",
+  "main.js.map": "/wordpress-components/static/js/main.7eb197ba.chunk.js.map",
   "index.html": "/wordpress-components/index.html"
 }
